@@ -1,6 +1,6 @@
 # 🇮🇳 Indian E-Commerce Revenue Forecasting
 
-A portfolio-ready time-series forecasting project using **36 months of synthetic monthly Indian e-commerce data (Jan 2023–Dec 2025)**. The project evaluates simple baselines and Holt-Winters models, selects the best specification on a **2025 holdout**, and produces a 12-month **2026 revenue forecast**.
+A portfolio-ready time-series forecasting project using **36 months of synthetic monthly Indian e-commerce data (Jan 2023-Dec 2025)**. The project evaluates simple baselines and Holt-Winters models, selects the best specification on a **2025 holdout**, and produces a 12-month **2026 revenue forecast**.
 
 > **Important:** The dataset is synthetic/demo data. Forecasts are illustrative and should not be presented as real company or market forecasts.
 
@@ -11,7 +11,7 @@ A portfolio-ready time-series forecasting project using **36 months of synthetic
 ## 🔎 Approach
 
 - Frequency: monthly (`MS`)
-- History: Jan 2023–Dec 2025
+- History: Jan 2023-Dec 2025
 - Holdout: Jan–Dec 2025
 - Target: revenue in ₹ lakhs
 - Baselines: Naive, Seasonal Naive, 3-month moving average
@@ -38,8 +38,8 @@ The original project documentation reported different metrics because it describ
 
 The final model forecasts approximately **₹1296.6 lakh (₹129.66 crore)** of revenue across 2026.
 
-- Lowest forecast month: **February 2026 — ₹78.4 lakh**
-- Peak forecast month: **November 2026 — ₹168.5 lakh**
+- Lowest forecast month: **February 2026 - ₹78.4 lakh**
+- Peak forecast month: **November 2026 - ₹168.5 lakh**
 - November vs January forecast: **110.4% higher**
 
 These are **point forecasts**, not guaranteed outcomes. The dataset contains only three annual cycles, so uncertainty is meaningful and the model should be retrained as new monthly observations arrive.
@@ -54,13 +54,16 @@ These are **point forecasts**, not guaranteed outcomes. The dataset contains onl
 ## 📸 Visuals
 
 ### Historical revenue
-![Historical Revenue](images/01_historical_revenue_trend.png)
+Historical Revenue <img width="1980" height="990" alt="01_historical_revenue_trend" src="https://github.com/user-attachments/assets/43ebeead-1144-4172-8fe0-ce3ad9037d5c" />
+
 
 ### Holdout performance
-![Actual vs Forecast](images/02_model_forecast_comparison.png)
+Actual vs Forecast <img width="1980" height="990" alt="02_model_forecast_comparison" src="https://github.com/user-attachments/assets/2497ee7f-066a-4a7f-8334-29bc5174c196" />
+
 
 ### 2026 forecast
-![2026 Forecast](images/03_future_12_month_revenue_forecast.png)
+2026 Forecast <img width="1980" height="990" alt="03_future_12_month_revenue_forecast" src="https://github.com/user-attachments/assets/9c46bc34-83ae-4efc-b896-7d6df472f492" />
+
 
 ## 📂 Repository Structure
 
